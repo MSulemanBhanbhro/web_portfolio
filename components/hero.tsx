@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="bg-[#02E5F2] w-full md:w-[240px] p-3 mt-4 text-lg rounded-md text-black mx-auto md:mx-0">
             <Link href={"https://github.com/MSulemanBhanbhro"} target="_blank">
               <button
-                className={`${lusitana.className} flex items-center justify-center md:justify-start text-xl font-bold`}
+                className={`${lusitana.className} flex items-center space-x-4 justify-center md:justify-start text-xl font-bold`}
                 type="button"
               >
                 Github Account

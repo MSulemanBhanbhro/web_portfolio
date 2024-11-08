@@ -22,7 +22,10 @@ const Contact = () => {
             <div className="border-solid border-2 p-4 rounded-full text-gray-300">
               <MdEmail size={38} />
             </div>
-            <IoIosArrowForward size={30} className="text-gray-300" />
+            <div className="text-gray-300">
+            <IoIosArrowForward size={30}  />
+            </div>
+            
             <h2 className={`${lusitana.className} text-lg md:text-3xl text-[#E9E6E5]`}>ms5901562@gmail.com</h2>
           </div>
 
@@ -31,7 +34,10 @@ const Contact = () => {
             <div className="border-solid border-2  p-4 rounded-full text-gray-300">
               <IoCallSharp size={38} />
             </div>
-            <IoIosArrowForward size={30} className="text-gray-300" />
+            <div className="text-gray-300">
+            <IoIosArrowForward size={30} />
+            </div>
+            
             <h2 className={`${lusitana.className} text-lg md:text-3xl text-[#E9E6E5]`}>0342 - 0032995</h2>
           </div>
 
@@ -40,7 +46,10 @@ const Contact = () => {
             <div className="border-solid border-2  p-4 rounded-full text-gray-300">
               <FaLocationDot size={38} />
             </div>
-            <IoIosArrowForward size={30} className="text-gray-300" />
+            <div className="text-gray-300">
+            <IoIosArrowForward size={30}  />
+            </div>
+            
             <h2 className={`${lusitana.className} text-lg md:text-3xl text-[#E9E6E5]`}>Naveed Arcade Saddar Karachi</h2>
           </div>
 

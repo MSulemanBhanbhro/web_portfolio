@@ -17,7 +17,10 @@ const About = () => {
                     </div>
                     
                     <div className="max-w-lg text-center md:text-left px-4">
-                        <FaQuoteLeft size={24} className="text-[#02E5F2] inline-block mb-4" />
+                        <div className="text-[#02E5F2] inline-block mb-4">
+                        <FaQuoteLeft size={24}  />
+                        </div>
+                        
                         <p className={`${lusitana.className} text-lg md:text-xl font-semibold text-[#E9E6E5]`}>
                         As a skilled and dedicated Frontend Developer, 
                         I bring a strong blend of creativity, technical 
@@ -28,7 +31,10 @@ const About = () => {
                         HTML, CSS, and JavaScript, along with a deep 
                         focus on frameworks like React and Next.js.
                         </p>
-                        <FaQuoteRight size={24} className="text-[#02E5F2] inline-block mt-4" />
+                        <div className="text-[#02E5F2] inline-block mt-4">
+                        <FaQuoteRight size={24} />
+                        </div>
+                        
                     </div>
                 </div>
                 
