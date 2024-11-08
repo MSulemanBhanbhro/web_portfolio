@@ -46,7 +46,7 @@ const Hero = () => {
                 type="button"
               >
                 Github Account
-                <FaGithub size={25} />
+                <FaGithub size={25} className="ml-6" />
               </button>
             </Link>
           </div>
